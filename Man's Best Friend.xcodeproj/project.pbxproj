@@ -21,6 +21,13 @@
 		18FFA84218A4A74B00753236 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FFA82418A4A74B00753236 /* UIKit.framework */; };
 		18FFA84A18A4A74B00753236 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18FFA84818A4A74B00753236 /* InfoPlist.strings */; };
 		18FFA84C18A4A74B00753236 /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFA84B18A4A74B00753236 /* Man_s_Best_FriendTests.m */; };
+		18FFA85718A4AB2D00753236 /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFA85618A4AB2D00753236 /* MBFDog.m */; };
+		18FFA85D18AAEDAD00753236 /* kim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FFA85C18AAEDAD00753236 /* kim.jpg */; };
+		18FFA85F18AC7B9500753236 /* ny1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FFA85E18AC7B9500753236 /* ny1.jpg */; };
+		18FFA86118AC7BA000753236 /* jon7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FFA86018AC7BA000753236 /* jon7.jpg */; };
+		18FFA86318AC7BB500753236 /* jon3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FFA86218AC7BB500753236 /* jon3.jpg */; };
+		18FFA86618AD966200753236 /* MBFPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FFA86518AD966200753236 /* MBFPuppy.m */; };
+		18FFA86818AD97FB00753236 /* jon6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FFA86718AD97FB00753236 /* jon6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,15 @@
 		18FFA84718A4A74B00753236 /* Man's Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best FriendTests-Info.plist"; sourceTree = "<group>"; };
 		18FFA84918A4A74B00753236 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18FFA84B18A4A74B00753236 /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		18FFA85518A4AB2D00753236 /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBFDog.h; path = ../MBFDog.h; sourceTree = "<group>"; };
+		18FFA85618A4AB2D00753236 /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBFDog.m; path = ../MBFDog.m; sourceTree = "<group>"; };
+		18FFA85C18AAEDAD00753236 /* kim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kim.jpg; sourceTree = "<group>"; };
+		18FFA85E18AC7B9500753236 /* ny1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ny1.jpg; sourceTree = "<group>"; };
+		18FFA86018AC7BA000753236 /* jon7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jon7.jpg; sourceTree = "<group>"; };
+		18FFA86218AC7BB500753236 /* jon3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jon3.jpg; sourceTree = "<group>"; };
+		18FFA86418AD966200753236 /* MBFPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFPuppy.h; sourceTree = "<group>"; };
+		18FFA86518AD966200753236 /* MBFPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFPuppy.m; sourceTree = "<group>"; };
+		18FFA86718AD97FB00753236 /* jon6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jon6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,10 @@
 				18FFA83218A4A74B00753236 /* Main.storyboard */,
 				18FFA83518A4A74B00753236 /* MBFViewController.h */,
 				18FFA83618A4A74B00753236 /* MBFViewController.m */,
+				18FFA85518A4AB2D00753236 /* MBFDog.h */,
+				18FFA85618A4AB2D00753236 /* MBFDog.m */,
+				18FFA86418AD966200753236 /* MBFPuppy.h */,
+				18FFA86518AD966200753236 /* MBFPuppy.m */,
 				18FFA83818A4A74B00753236 /* Images.xcassets */,
 				18FFA82718A4A74B00753236 /* Supporting Files */,
 			);
@@ -126,6 +146,11 @@
 		18FFA82718A4A74B00753236 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18FFA86718AD97FB00753236 /* jon6.jpg */,
+				18FFA86218AC7BB500753236 /* jon3.jpg */,
+				18FFA86018AC7BA000753236 /* jon7.jpg */,
+				18FFA85E18AC7B9500753236 /* ny1.jpg */,
+				18FFA85C18AAEDAD00753236 /* kim.jpg */,
 				18FFA82818A4A74B00753236 /* Man's Best Friend-Info.plist */,
 				18FFA82918A4A74B00753236 /* InfoPlist.strings */,
 				18FFA82C18A4A74B00753236 /* main.m */,
@@ -229,9 +254,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FFA85F18AC7B9500753236 /* ny1.jpg in Resources */,
+				18FFA86118AC7BA000753236 /* jon7.jpg in Resources */,
 				18FFA83918A4A74B00753236 /* Images.xcassets in Resources */,
+				18FFA86318AC7BB500753236 /* jon3.jpg in Resources */,
+				18FFA86818AD97FB00753236 /* jon6.jpg in Resources */,
 				18FFA82B18A4A74B00753236 /* InfoPlist.strings in Resources */,
 				18FFA83418A4A74B00753236 /* Main.storyboard in Resources */,
+				18FFA85D18AAEDAD00753236 /* kim.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +282,9 @@
 			files = (
 				18FFA83118A4A74B00753236 /* MBFAppDelegate.m in Sources */,
 				18FFA83718A4A74B00753236 /* MBFViewController.m in Sources */,
+				18FFA85718A4AB2D00753236 /* MBFDog.m in Sources */,
 				18FFA82D18A4A74B00753236 /* main.m in Sources */,
+				18FFA86618AD966200753236 /* MBFPuppy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +493,7 @@
 				18FFA85118A4A74B00753236 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18FFA85218A4A74B00753236 /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +502,7 @@
 				18FFA85418A4A74B00753236 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
